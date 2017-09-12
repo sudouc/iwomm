@@ -7,16 +7,16 @@ def grade(score: int) -> str:
 
     grade = "Fail"
 
-    if 50 < score < 70:
+    if 50 <= score < 70:
         grade = "Pass"
 
-    if 70 < score < 80:
+    if 70 <= score < 80:
         grade = "Credit"
 
-    if 80 < score < 85:
+    if 80 <= score < 85:
         grade = "Distinction"
 
-    if 85 < score:
+    if 85 <= score:
         grade = "High Distinction"
 
     return grade
